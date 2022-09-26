@@ -20,4 +20,12 @@ export class FlightSearchComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  search(): void {
+    // Todo: Implementierung folgt
+  }
+
+  select(f: Flight): void {
+    this.selectedFlight = f;
+  }
+
 }
