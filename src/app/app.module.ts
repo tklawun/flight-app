@@ -1,3 +1,5 @@
+// src/app/app.modules.ts
+
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { BrowserModule } from '@angular/platform-browser';
