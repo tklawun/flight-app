@@ -6,8 +6,11 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FlightSearchComponent } from './flight-search/flight-search.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
    imports: [
+      HttpClientModule,
       BrowserModule
    ],
    declarations: [
