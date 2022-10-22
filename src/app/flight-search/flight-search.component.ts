@@ -12,6 +12,8 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 
 export class FlightSearchComponent implements OnInit {
 
+    title = 'Search your flight';
+
     from = 'Hamburg';
     to = 'Graz';
     flights: Array<Flight> = [];

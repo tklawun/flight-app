@@ -9,9 +9,11 @@ import { AppComponent } from './app.component';
 import { FlightSearchComponent } from './flight-search/flight-search.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
    imports: [
+      FormsModule,
       HttpClientModule,
       BrowserModule
    ],
